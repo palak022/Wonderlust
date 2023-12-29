@@ -17,7 +17,7 @@
     font-size: 6rem;
     text-align: center;
     margin:12% 0px 0px  0px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:myfont;
 }
 
 .logo{
@@ -45,7 +45,7 @@ p{
     font-size: 3rem;
     text-align: center;
     margin:50% 0px 50% 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: myfont;
 }
 
 .btn{
@@ -138,6 +138,11 @@ footer{
     margin:10px 0px 10px 0px ;
 }
 
+@font-face {
+    font-family: myfont;
+    src: url(./LilitaOne-Regular.ttf);
+}
+
 @media (min-width : 200px) and (max-width : 1000px){
     
     .background{
@@ -153,7 +158,7 @@ footer{
     }
     
     .one{
-        margin:10px 35% 0px 35%;
+        margin:10px 38% 0px 42%;
     }
 
     .container{
@@ -188,6 +193,12 @@ footer{
     margin:10px 10% 0px 12%;
    }
     
+   .manali{
+    font-size: 30px;
+    font-family: myfont;
+    src:url(./LilitaOne-Regular.ttf);
+}
 
+ 
 }
 
